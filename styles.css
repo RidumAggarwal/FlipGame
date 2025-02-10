@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+}
+#start-game{
+    position:absolute;
+    height:97vh;
+    width:100vw;
+    background-color: #00000080;
+    color:aliceblue;
+    align-content: center;
+    z-index: 1;
+    
+}
+input{
+    height: 2rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    padding-left: 4px;
+    margin-top: 5px;
+}
+#login-container{
+    margin:auto;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    background-color: rgba(0, 0, 0, 0.594);
+    padding: 25px;
+    border-radius: 10px;
+}
+button{
+    height: 2rem;
+    width: fit-content;
+    align-self: center;
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+#login-container h1{
+    text-align: center;
+    color: orangered;
+}
+
+#container{
+    border: solid 2px black;
+    display: flex;
+    height: 100vh;
+}
+#game-container{
+    border: solid;
+    width: 80%;
+    background-color: rgb(165, 115, 48);
+}
+table{
+    width: 100%;
+    height: 100%;
+    border: solid 1px black;
+    color: white;
+    background-color: purple;
+
+}
+tr{
+    border: solid 1px black;
+}
+td
+{
+    border: solid;
+    height:24%;
+    width: 24%;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.num{
+    margin-left: 48%;
+    display: flex;
+    font-size: 1.5rem;
+    width: fit-content;
+    cursor: pointer;
+}
+.hide{
+    display: none;
+}
+#scoreboard{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding:5px;
+    color: white;
+    background-color: rgba(39, 86, 35, 0.856);
+}
+#score{
+    border: solid 3px rgb(221, 23, 23);
+    margin-bottom: 5px;
+    padding: 5px;
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+#timer{
+    border: solid 3px rgb(220, 206, 19);
+    position: ABSOLUTE;
+    bottom: 10px;    
+    height: auto;
+    width: auto !important;
+    font-size: 8.3vw;
+    color: red; 
+}
+#user-log-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: dotted 4px #cccccc;
+}
+#display-userid >u{
+    font-size: 1rem;
+    color:rgb(255, 0, 51);
+    text-decoration: underline;
+}
+#user-log-container> h2{
+    border: dotted 4px #cccccc;
+}
+#display-highscore,#display-bestscore{
+    font-size: 1.5rem;
+    color: white;
+}
+#timebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 6px;
+    width: 0;
+    background-color: rgb(200, 244, 8);
+}
